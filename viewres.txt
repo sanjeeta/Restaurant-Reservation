@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+   
+<title>View Reservation</title>
+   
+<meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+ 
+<style>
+body {
+
+    background-color: #D07C7C;
+    
+}
+label{
+font-family:arial;
+font-size:16px;
+}
+.class1{
+
+margin:30px 10px 10px 20px;
+}
+h1{ 
+text-align: center;
+font-family:Lucida Grande;
+border-style: double;
+border-width:4px 4px 4px 4px ;
+}
+table {
+    
+    border-spacing:5px;
+  border:1px solid black;
+
+}
+td {
+    border: 2px solid black;
+    height:10px;
+}
+
+</style>
+</head>
+<body>
+<h1>View Reservation</h1>
+<div class="class1">
+<p><label>Reservation date:</label>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+<input type="date"/></p>
+<p><input type="submit"/></p>
+<table style="width:100%">
+<tr>
+<th>Name</th>
+<th>Phone Number</th>
+<th>Time</th>
+<th>PartySize</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+  

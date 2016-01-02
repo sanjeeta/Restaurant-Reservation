@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+   
+<title>Create Reservation</title>
+   
+<meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+ 
+<style>
+body {
+
+    background-color: #D07C7C;
+    
+}
+label{
+font-family:arial;
+font-size:16px;
+}
+.class1{
+
+margin:30px 10px 10px 20px;
+}
+h1{ 
+text-align: center;
+font-family:Lucida Grande;
+border-style: double;
+border-width:4px 4px 4px 4px ;
+}
+</style>
+</head>
+<body>
+<h1>Create Reservation</h1>
+<div class="class1">
+<p><label>Name:</label>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+<input type="text" placeholder="eg:John Jackman" autocomplete="on"/></p>
+
+<p><label>Phone Number:</label>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+<input type="number" placeholder="eg:(312)-990-6155" autocomplete="on"/></p>
+<p><label>Date of Reservation:</label>
+<input type="date"/></p>
+<p><label>Time:</label>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 
+<input type="time"/></p>
+<p><label>Party Size:</label>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;
+<input type="text" autocomplete="on"/></p>
+</div>
+<p><input type="submit"/>&nbsp; &nbsp;&nbsp; &nbsp;
+<input type="submit" value="edit"/></p>
+</body>
+</html>

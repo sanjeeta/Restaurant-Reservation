@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+   
+<title>View Seating Area</title>
+   
+<meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+ 
+<style>
+body {
+
+    background-color: #D07C7C;
+    
+}
+label{
+font-family:arial;
+font-size:16px;
+}
+.class1{
+
+margin:30px 10px 10px 20px;
+}
+h1{ 
+text-align: center;
+font-family:Lucida Grande;
+border-style: double;
+border-width:4px 4px 4px 4px ;
+}
+table {
+    
+    border-spacing:5px;
+  border:1px solid black;
+
+}
+</style>
+</head>
+<body>
+<h1>Seating Area</h1>
+<div class="class1">
+<p><label>Reservation date:</label>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+<input type="date"/></p>
+<p><input type="submit"/></p>
+
+<table style="width:100%">
+<tr>
+<th>Confirmation Code</th>
+<th>Size</th>
+<th>Status</th>
+</tr>
+</body>
+</html>
